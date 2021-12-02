@@ -32,7 +32,7 @@ def getInput():
            
         
         if((myNum == 0) or (myNum <=5000) ):
-            result.append((fibonacci(myNum)))
+            result.append("Die Fibonacci Zahl für "+ str(myNum) + ' ist: '+ str((fibonacci(myNum))))
         
         else:
             print('invalid input!.')
